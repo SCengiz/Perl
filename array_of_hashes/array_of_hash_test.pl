@@ -10,15 +10,15 @@ use warnings;
 
 # Pixel values of RGB colors.
 my @yellow = (0,0,255);
-my @green  = (0,255,0);
+my @blue   = (0,255,0);
 my @red    = (255,0,0);
 
 # The array takes hashes and hashes are with color and bit representation form
 my @array_of_hashes = 
 (
-  {'Green'  => \@yellow}, 
-  {'Yellow' => \@green },
-  {'Red'    => \@red   }
+  {'Blue'  => \@blue}, 
+  {'Green' => \@green },
+  {'Red'   => \@red   }
 );
 
 my $len_of_array = $#array_of_hashes + 1;
